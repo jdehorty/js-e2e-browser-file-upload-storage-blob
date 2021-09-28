@@ -18,7 +18,7 @@ export const isStorageConfigured = () => {
 
 // <snippet_getBlobsInContainer>
 // return list of blobs in container to display
-const getBlobsInContainer = async (containerClient: ContainerClient) => {
+const getBlobsInContainer = async (containerClient: ContainerClient) => { 
   const returnedBlobUrls: string[] = [];
 
   // get list of blobs in container
