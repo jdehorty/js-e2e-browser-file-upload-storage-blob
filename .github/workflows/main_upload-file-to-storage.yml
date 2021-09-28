@@ -48,6 +48,11 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: build
+      
+      - name: Set up Node.js version
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
 
       # - name: Unpack build artifact
       #   run: tar -xvf build.tar && rm build.tar
