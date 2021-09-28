@@ -8,7 +8,7 @@ jobs:
         with:
           submodules: true
       - name: Build And Deploy
-        id: builddeploy
+        id: builddeploy 
         uses: azure/webapps-deploy@v2
         with:
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
