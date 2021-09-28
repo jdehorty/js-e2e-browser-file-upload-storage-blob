@@ -59,4 +59,3 @@ jobs:
           app-name: 'upload-file-to-storage'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E447156B2DB44A759C5A6808F7EA8870 }}
-          package: build
